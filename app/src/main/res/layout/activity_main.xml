@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/fondo1"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  BIENVENIDO ESCRIBE UN USUARIO"
+        android:textColorHint="@color/black"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:onClick="facil"
+        android:id="@+id/Modofacil"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="70dp"
+        android:text="Modo Normal"
+        android:textSize="30dp"
+        android:enabled="false"
+        android:background="@drawable/selector_btn_enabled"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/Activacion"
+        android:checked="false"
+        android:onClick="checkar"
+        android:layout_width="310dp"
+        android:gravity="center"
+        android:layout_height="70dp"
+        android:text="ACTIVAR MODO DESAFIO"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="8dp"
+        />
+    </RadioGroup>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:orientation="horizontal">
+
+      <androidx.appcompat.widget.AppCompatButton
+          android:id="@+id/desafio"
+          android:layout_width="match_parent"
+          android:layout_height="80dp"
+          android:text="Modo Desafio"
+          android:textSize="30dp"
+          android:enabled="false"
+          android:background="@drawable/selector_btn_enabled"
+          />
+
+  </LinearLayout>
+
+
+    <Button
+        android:onClick="Salir"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="SALIR"
+        android:textSize="30dp"
+        android:id="@+id/salir"
+        android:textColor="@color/white"
+        android:background="@drawable/botones"
+        />
+
+
+</LinearLayout>

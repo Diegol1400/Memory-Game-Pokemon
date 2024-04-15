@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/fondo1"
+    tools:context=".ModoFacil">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:onClick="Reiniciar"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Btnreiniciar"
+            android:text="reiniciar"
+            android:layout_marginLeft="20dp"
+            ></Button>
+        <Button
+            android:onClick="Salir"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Btnsalir"
+            android:text="Salir"
+            android:layout_marginLeft="85dp"
+            ></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:id="@+id/puntuacion"
+            android:text="Puntuacion = 0"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:id="@+id/errores"
+            android:text="Errores = 0"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            ></TextView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="45dp"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:id="@+id/usuario2"
+        android:text="Usuario"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+
+
+    <TableLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="5dp"
+       android:layout_marginTop="20dp">
+
+       <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+           android:gravity="center"
+           >
+           <ImageButton
+               android:id="@+id/boton01"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+           <ImageButton
+               android:id="@+id/boton02"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+           <ImageButton
+               android:id="@+id/boton03"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+           <ImageButton
+               android:id="@+id/boton04"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+       </TableRow>
+
+       <TableRow
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:gravity="center"
+           android:layout_marginTop="20dp"
+
+           >
+           <ImageButton
+               android:id="@+id/boton11"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+           <ImageButton
+               android:id="@+id/boton12"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+           <ImageButton
+               android:id="@+id/boton13"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+           <ImageButton
+               android:id="@+id/boton14"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+       </TableRow>
+
+       <TableRow
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:gravity="center"
+           android:layout_marginTop="20dp"
+           >
+           <ImageButton
+               android:id="@+id/boton21"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+           <ImageButton
+               android:id="@+id/boton22"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+           <ImageButton
+               android:id="@+id/boton23"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+           <ImageButton
+               android:id="@+id/boton24"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+       </TableRow>
+
+       <TableRow
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:gravity="center"
+           android:layout_marginTop="20dp"
+
+           >
+           <ImageButton
+               android:id="@+id/boton31"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+           <ImageButton
+               android:id="@+id/boton32"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+           <ImageButton
+               android:id="@+id/boton33"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+           <ImageButton
+               android:id="@+id/boton34"
+               android:layout_width="65dp"
+               android:layout_height="90dp"
+               android:layout_column="0"
+               android:layout_marginRight="10dp"
+               ></ImageButton>
+       </TableRow>
+
+   </TableLayout>
+
+</LinearLayout>
